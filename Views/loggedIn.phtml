@@ -1,0 +1,23 @@
+<?php
+require_once("Views/Templates/heading.phtml");
+?>
+
+<div class="container-graph">
+    <div class="text-center">
+        <h1 class="title">Carbon Footprint For IRIS</h1>
+        <p class="description">The following chart shows tracked, measured, reviewed, and forecasted carbon emissions. This data was generated from AWS, Azure, Google Cloud, and ALI Cloud.</p>
+    </div>
+    <div class="chart-container text-center">
+        <h2>Carbon Usage Graph of the Year so far</h2>
+        <div id="plotly-chart"></div>
+        <!-- Other head elements -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <!-- Other script elements -->
+
+
+        <script src="../Javascript/javascript.js"></script>
+    </div>
+</div>
+
+<?php require('Templates/footer.phtml') ?>

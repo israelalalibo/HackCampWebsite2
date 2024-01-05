@@ -1,0 +1,47 @@
+<?php global $view;
+if ($view->username_error != null){
+    ?> <style>.username-error{display: block;}</style> <?php
+}
+if ($view->password_error != null){
+    ?> <style>.password-error{display: block;}</style> <?php
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="Images/iris-logo-removebg-preview.png">
+    <title>Login into IRIS</title>
+</head>
+<body>
+<div class="log-container">
+    <form class="loginForm" action="" method="post">
+        <h1>Login</h1>
+
+        <div class="input-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" value="<?php echo isset($_POST['username']) ? htmlspecialchars($_POST['username']) : ''; ?>" required>
+        </div>
+        <p class="error username-error"> <?php echo $view->username_error; ?></p>
+        <!-- <p class="error username-error"><?php echo isset($view->username_error) ? $view->username_error : ''; ?></p> -->
+
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" value="<?php echo isset($_POST['password']) ? htmlspecialchars($_POST['password']) : ''; ?>" required>
+        </div>
+
+        <p class="error password-error"><?php echo $view->password_error; ?></p>
+        <!--<p class="errorr password-error"><?php echo isset($view->password_error) ? $view->password_error : ''; ?></p>-->
+
+        <p class="error emptyfields-error"><?php echo isset($view->emptyFields_error) ? $view->emptyFields_error : ''; ?></p>
+
+        <div class="login-box">
+            <button type="submit" name="login">Log In</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
