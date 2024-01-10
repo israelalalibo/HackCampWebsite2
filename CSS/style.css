@@ -83,25 +83,24 @@ button:hover {
 
 }
 
-/* Add custom styles for transparency */
 .navbar {
-    background-color: cornflowerblue !important; /* Adjust alpha channel for transparency */
+    background-color: cornflowerblue !important;
 }
 
-/* Optional: Add a background color on scroll or adjust other styles */
+/* This will add a background color on scroll or adjust other styles */
 .navbar.scrolled {
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust alpha channel for transparency on scroll */
-    transition: background-color 0.3s ease-in-out; /* Smooth transition effect */
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.3s ease-in-out; /* This is for Smooth transition effect */
 }
 
-/* Custom style for the logout link */
+/* CSS style for the logout link */
 .navbar-nav .nav-item .nav-link.logout-btn {
     background-color: white;
     color: cornflowerblue;
     border: 1px solid cornflowerblue;
     padding: 8px 15px;
     border-radius: 5px;
-    transition: all 0.3s; /* Add transition for smooth effect */
+    transition: all 0.3s;
 }
 
 .navbar-nav .nav-item .nav-link.logout-btn:hover {
@@ -133,10 +132,10 @@ button:hover {
 }
 
 .welcome-section .container h1 {
-    font-size: 3.5rem; /* Increased font size */
-    font-weight: bold; /* Made the font bolder */
+    font-size: 3.5rem;
+    font-weight: bold;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added a shadow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .cta-section {
@@ -147,7 +146,7 @@ button:hover {
     color: black;
     font-family: 'Helvetica', sans-serif;
     font-size: 24px;
-    font-weight: bold; /* Add this line to make the font bolder */
+    font-weight: bold;
     padding: 60px 0;
     text-align: center;
     margin-bottom: 50px;
@@ -208,15 +207,13 @@ button:hover {
     color: #333;
 }
 
-
-/* Style the container with a maximum width */
 .container-graph {
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 150px;
 }
 
-/* Style the heading and description */
+/* Styling the heading and description */
 .title {
     margin-bottom: 10px;
     color: cornflowerblue;
@@ -230,7 +227,7 @@ button:hover {
     font-size: 18px;
 }
 
-/* Center the image and chart */
+
 .text-center img, .text-center canvas {
     display: block;
     margin: 0 auto;
@@ -238,13 +235,12 @@ button:hover {
     height: auto;
 }
 
-/* Style the chart canvas */
+/* Styling for the chart canvas */
 canvas {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
 
-/* Optional: Style the title of the chart */
 #myChart .axis-title {
     font-size: 14px;
     font-weight: bold;
@@ -252,34 +248,34 @@ canvas {
 
 
 
-/* Custom CSS for the footer */
+/* Custom CSS styling for the footer */
 .footer {
     padding-top: 0;
-    background-color: cornflowerblue; /* Change this to your desired background color */
-    color: #ffffff; /* Change this to your desired text color */
-    text-align: center; /* Align text to the center */
-    padding: 0px 0; /* Add padding for better spacing */
+    background-color: cornflowerblue;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 0;
 }
 .foot-container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 25vh;
-    max-width: 7500px; /* Set the maximum width of the container */
+    max-width: 7500px;
     text-align: center;
 }
 
 
 .footer a {
-    color: #ffffff;/* Link color */
+    color: #ffffff;
 }
 
 .footer a:hover {
-    text-decoration: none; /* Remove underline on hover */
-    color: #ffffff; /* Change color on hover if desired */
+    text-decoration: none;
+    color: #ffffff;
 }
 
-/* Additional style for smaller screens */
+/* Additional CSS style for smaller screens */
 @media (max-width: 768px) {
     .navbar-nav .nav-item .nav-link.logout-btn {
         padding: 6px 12px; /* Adjust padding for smaller size */
@@ -287,12 +283,12 @@ canvas {
     }
 
     body {
-        margin: 0; /* Remove default body margin */
-        padding: 0; /* Remove default body padding */
+        margin: 0; /* This removes the default body margin */
+        padding: 0; /* Removes default body padding */
     }
 
     .navbar-brand img {
-        margin-top: -5px; /* Adjust as needed */
+        margin-top: -5px;
     }
 
     .log-container {
@@ -352,7 +348,7 @@ canvas {
     }
 
     .footer .foot-container {
-        max-width: 800px; /* Set the maximum width of the container */
+        max-width: 800px;
         font-size: 0.7rem;
         height: 150px;
     }
