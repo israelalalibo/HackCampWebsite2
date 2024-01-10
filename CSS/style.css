@@ -83,7 +83,7 @@ button:hover {
 
 }
 
-<<<<<<< HEAD
+
 /* Add custom styles for transparency */
 .navbar {
     background-color: cornflowerblue !important; /* Adjust alpha channel for transparency */
@@ -96,7 +96,6 @@ button:hover {
 }
 
 /* Custom style for the logout link */
-=======
 .navbar {
     background-color: cornflowerblue !important;
 }
@@ -107,19 +106,14 @@ button:hover {
     transition: background-color 0.3s ease-in-out; /* The is for smooth transition effect */
 }
 
-
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 .navbar-nav .nav-item .nav-link.logout-btn {
     background-color: white;
     color: cornflowerblue;
     border: 1px solid cornflowerblue;
     padding: 8px 15px;
     border-radius: 5px;
-<<<<<<< HEAD
     transition: all 0.3s; /* Add transition for smooth effect */
-=======
     transition: all 0.3s;
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 }
 
 .navbar-nav .nav-item .nav-link.logout-btn:hover {
@@ -134,13 +128,8 @@ button:hover {
     box-sizing: border-box;
     margin-top: 80px;
 }
-<<<<<<< HEAD
-/* Dashboard CSS Code */
-
-=======
 
 /* Dashboard CSS Code */
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 .welcome-section .container {
     display: flex;
     align-items: center;
@@ -177,11 +166,8 @@ button:hover {
     color: black;
     font-family: 'Helvetica', sans-serif;
     font-size: 24px;
-<<<<<<< HEAD
     font-weight: bold; /* Add this line to make the font bolder */
-=======
     font-weight: bold;
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
     padding: 60px 0;
     text-align: center;
     margin-bottom: 50px;
@@ -242,21 +228,15 @@ button:hover {
     color: #333;
 }
 
-<<<<<<< HEAD
 
 /* Style the container with a maximum width */
-=======
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 .container-graph {
     max-width: 1000px;
     margin: 0 auto;
     padding-top: 150px;
 }
 
-<<<<<<< HEAD
 /* Style the heading and description */
-=======
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 .title {
     margin-bottom: 10px;
     color: cornflowerblue;
@@ -270,10 +250,7 @@ button:hover {
     font-size: 18px;
 }
 
-<<<<<<< HEAD
 /* Center the image and chart */
-=======
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 .text-center img, .text-center canvas {
     display: block;
     margin: 0 auto;
@@ -281,26 +258,19 @@ button:hover {
     height: auto;
 }
 
-<<<<<<< HEAD
 /* Style the chart canvas */
-=======
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 canvas {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
 
-<<<<<<< HEAD
 /* Optional: Style the title of the chart */
-=======
 
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 #myChart .axis-title {
     font-size: 14px;
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 
 
 /* Custom CSS for the footer */
@@ -310,7 +280,7 @@ canvas {
     color: #ffffff; /* Change this to your desired text color */
     text-align: center; /* Align text to the center */
     padding: 0px 0; /* Add padding for better spacing */
-=======
+
 .footer {
     padding-top: 0;
     background-color: cornflowerblue;
@@ -341,14 +311,13 @@ canvas {
 .footer a:hover {
     text-decoration: none; /* Remove underline on hover */
     color: #ffffff; /* Change color on hover if desired */
-=======
+
     color: #ffffff;
 }
 
 .footer a:hover {
     text-decoration: none;
     color: #ffffff;
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
 }
 
 /* Additional style for smaller screens */
@@ -359,21 +328,18 @@ canvas {
     }
 
     body {
-<<<<<<< HEAD
         margin: 0; /* Remove default body margin */
         padding: 0; /* Remove default body padding */
     }
 
     .navbar-brand img {
         margin-top: -5px; /* Adjust as needed */
-=======
         margin: 0; /* this removes default body margin */
         padding: 0; /* Removes default body padding */
     }
 
     .navbar-brand img {
         margin-top: -5px;
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
     }
 
     .log-container {
@@ -383,6 +349,7 @@ canvas {
     input {
         width: auto;
     }
+
     .container {
         height: auto;
     }
@@ -399,7 +366,7 @@ canvas {
         width: 100%;
     }
 
-    .welcome-section .container h1{
+    .welcome-section .container h1 {
         font-size: 50px;
         margin-bottom: 15px;
     }
@@ -433,16 +400,14 @@ canvas {
     }
 
     .footer .foot-container {
-<<<<<<< HEAD
         max-width: 800px; /* Set the maximum width of the container */
-=======
         max-width: 800px;
->>>>>>> dd5e4a7 (Eddited the CSS and commented)
         font-size: 0.7rem;
         height: 150px;
     }
 
-    .footer .a{
+    .footer .a {
         font-size: 1rem;
+
     }
 }
